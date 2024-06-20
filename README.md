@@ -2,6 +2,8 @@
 
 GoFood is a React-based web application that allows users to search for meals by name, browse food categories, and view detailed information about each meal using the [TheMealDB API](https://www.themealdb.com/api.php).
 
+# [GoFood](https://jatinjangras-go-food.vercel.app/) - Check out the website is LIVE HERE.
+
 ## Features
 
 - Search for meals by name
