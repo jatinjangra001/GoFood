@@ -40,6 +40,14 @@ GoFood is a React-based web application that allows users to search for meals by
 - Tailwind CSS for the styling framework.
 - Material UI for the UI components.
 
+## API Usage
+### The application uses the TheMealDB API to fetch meal data. Below are some key endpoints used:
+
+- Search meal by name: https://www.themealdb.com/api/json/v1/1/search.php?s={meal_name}
+- List all meals by first letter: https://www.themealdb.com/api/json/v1/1/search.php?f={letter}
+- Lookup full meal details by ID: https://www.themealdb.com/api/json/v1/1/lookup.php?i={meal_id}
+- List all meal categories: https://www.themealdb.com/api/json/v1/1/categories.php
+
 ## Dependencies
 
 ```json
@@ -52,4 +60,4 @@ GoFood is a React-based web application that allows users to search for meals by
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.23.1"
-}```
+}
